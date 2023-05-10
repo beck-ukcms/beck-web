@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Band Family Guide</title>
+    <style>
+        /* Basic page set-up */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+    }
+
+    h1 {
+      color: #0099cc;
+      text-align: center;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    /* Basic page tools */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #0099cc;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0077b3;
+    }
+
+    /* Expandable list */
+    input[type='checkbox'] { display: none; }
+    .wrap-collabsible { margin: 1.0rem 0; }
+    .lbl-toggle { display: block; margin: 4px 2px 0px 2px;
+        text-align: left; padding: 0.6rem 1.0rem; color: #333; background: #c7c7c7; 
+        cursor: pointer; border-radius: 5px; transition: all 0.25s ease-out; }
+    .lbl-toggle-bold {font-weight: bold;}
+    .lbl-toggle:hover { color: #555; background: #e7e7e7; }
+    .lbl-toggle::before { content: ' '; display: inline-block; 
+        border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 5px solid currentColor;
+        vertical-align: middle; margin-right: .7rem; transform: translateY(-2px); transition: transform .2s ease-out; }
+    .toggle:checked +.lbl-toggle::before { transform: rotate(90deg) translateX(-3px); }
+    .collapsible-content { max-height: 0px; overflow: hidden; transition: max-height .25s ease-in-out; }
+    .toggle:checked + .lbl-toggle + .collapsible-content { max-height: 5500px; }
+    .toggle:checked + .lbl-toggle { border-bottom-right-radius: 0; border-bottom-left-radius: 0; }
+    .collapsible-content .content-inner { background: #efefef; margin: 0px 2px 2px 2px;
+        border-bottom: 0px solid #333; border-bottom-left-radius: 5px; 
+        border-bottom-right-radius: 5px; padding: .5rem 1rem; }
+    .collapsible-content p { margin-bottom: 0; }
+
+
+  </style>
+</head>
+<body>
+    <div class="container">
+        <h1>A Million-and-One FAQs for New Band Families</h1>
+        <p>This is a mock-up of an info guide webpage with information for new band families.
+            Email <a href="mailto:m.beck@uky.edu">Matthew Beck</a> with suggestions, corrections, or additions!
+        </p>
+        <p style="text-align:center"><a href="index.html" class="button">Return to Lafayette Band homepage!</a></p>
+    </div>
+
+    <div class="container">
+
+        <div class="wrap-collabsible">
+
+            <!--Topic 2-->
+            <input id="2" class="toggle" type="checkbox">
+                <label for="2" class="lbl-toggle lbl-toggle-bold">General Band Information</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+          
+                        <!-- Begin topic 2 sub-topics -->
+                        <div class="wrap-collabsible">
+                            <input id="2.1" class="toggle" type="checkbox">
+                                <label for="2.1" class="lbl-toggle">Can anybody join the band? What are auditions for?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="2.2" class="toggle" type="checkbox">
+                                <label for="2.2" class="lbl-toggle">What are/Who are drum majors? ... Section leaders? How are they selected?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="2.3" class="toggle" type="checkbox">
+                                <label for="2.3" class="lbl-toggle">What is the Color Guard? Are they part of the band? Where can I get more info?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="2.4" class="toggle" type="checkbox">
+                                <label for="2.4" class="lbl-toggle">What is the Drum Line? ... the "pit"? Where can I get more info?</label>
+                                    <div class="collapsible-content">
+                                        <div class="content-inner">
+                                            This is where the answer goes.
+                                        </div>
+                                    </div>
+          
+                            <input id="2.5" class="toggle" type="checkbox">
+                                <label for="2.5" class="lbl-toggle">What are the Wind Symphony, Symphonic Band, Concert Band, Jazz Band, and Jazz Ensemble?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <!--<input id="2.6" class="toggle" type="checkbox">
+                                <label for="2.6" class="lbl-toggle">What are the Jazz Band and Jazz Ensemble?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>-->
+
+                            <input id="2.7" class="toggle" type="checkbox">
+                                <label for="2.7" class="lbl-toggle">How do you get into the [insert band/ensemble]?)</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="2.8" class="toggle" type="checkbox">
+                                <label for="2.8" class="lbl-toggle">Who are the band staff and what do they do?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="2.9" class="toggle" type="checkbox">
+                                <label for="2.9" class="lbl-toggle">What are the sections in the band?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <!--<input id="2.10" class="toggle" type="checkbox">
+                                <label for="2.10" class="lbl-toggle">How are drum majors/section leaders selected?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>-->
+
+                            <input id="2.11" class="toggle" type="checkbox">
+                                <label for="2.11" class="lbl-toggle">Where does the marching show music come from?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="2.12" class="toggle" type="checkbox">
+                                <label for="2.12" class="lbl-toggle">What is a "movement" in the marching show?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="2.13" class="toggle" type="checkbox">
+                                <label for="2.13" class="lbl-toggle">What are sets/props? Who designs them? Who builds/transports them?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="2.14" class="toggle" type="checkbox">
+                                <label for="2.14" class="lbl-toggle">What are new marchers? ... 8th-grade marchers?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                        </div>
+                        
+                    </div>
+                </div> <!--End topic 2-->
+
+                            <!--Topic 4-->
+            <input id="4" class="toggle" type="checkbox">
+            <label for="4" class="lbl-toggle lbl-toggle-bold">Calendar and Schedule Info</label>
+            <div class="collapsible-content">
+                <div class="content-inner">
+
+                    <!-- Begin topic 4 sub-topics -->
+                    <div class="wrap-collabsible">
+                        <input id="4.1" class="toggle" type="checkbox">
+                            <label for="4.1" class="lbl-toggle">When is "marching season"?</label>
+                            <div class="collapsible-content">
+                                <div class="content-inner">
+                                    This is where the answer goes.
+                                </div>
+                            </div>
+
+                        <input id="4.2" class="toggle" type="checkbox">
+                            <label for="4.2" class="lbl-toggle">Where can I see a schedule of all rehearsals, performances, competitions, camps, etc.?</label>
+                            <div class="collapsible-content">
+                                <div class="content-inner">
+                                    This is where the answer goes.
+                                </div>
+                            </div>
+      
+                        <input id="4.3" class="toggle" type="checkbox">
+                            <label for="4.3" class="lbl-toggle">Do all band sections have the same schedules?</label>
+                            <div class="collapsible-content">
+                                <div class="content-inner">
+                                    This is where the answer goes.
+                                </div>
+                            </div>
+      
+                        <input id="4.4" class="toggle" type="checkbox">
+                            <label for="4.4" class="lbl-toggle">Do students have to attend all scheduled practices? ... competitions and/or performances?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+      
+                        <input id="4.5" class="toggle" type="checkbox">
+                            <label for="4.5" class="lbl-toggle">What if I have a family vacation or commitment that conflicts with a mini-camp, band camp, fall break rehearsals, competitions or performances?</label>
+                            <div class="collapsible-content">
+                                <div class="content-inner">
+                                    This is where the answer goes.
+                                </div>
+                            </div>
+
+                        <input id="4.6" class="toggle" type="checkbox">
+                            <label for="4.6" class="lbl-toggle">What happens if it rains on a rehearsal/competition day?</label>
+                            <div class="collapsible-content">
+                                <div class="content-inner">
+                                    This is where the answer goes.
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div> <!--End topic 4-->
+
+                        <!--Topic 8-->
+            <input id="8" class="toggle" type="checkbox">
+                <label for="8" class="lbl-toggle lbl-toggle-bold">Rehearsals/Band Camp</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+
+                        <!-- Begin topic 8 sub-topics -->
+                        <div class="wrap-collabsible">
+                            <input id="8.1" class="toggle" type="checkbox">
+                                <label for="8.1" class="lbl-toggle">When are rehearsals? Is there band practice on the first day of school?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="8.2" class="toggle" type="checkbox">
+                                <label for="8.2" class="lbl-toggle">When are camps/mini-camps?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="8.3" class="toggle" type="checkbox">
+                                <label for="8.3" class="lbl-toggle">What happens at a typical rehearsal?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="8.12" class="toggle" type="checkbox">
+                                <label for="8.12" class="lbl-toggle">What do we do about freshman orientation--it conflicts with band camp?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="8.4" class="toggle" type="checkbox">
+                                <label for="8.4" class="lbl-toggle">What do they learn at camps/mini-camps?</label>
+                                    <div class="collapsible-content">
+                                        <div class="content-inner">
+                                            This is where the answer goes.
+                                        </div>
+                                    </div>
+          
+                            <input id="8.5" class="toggle" type="checkbox">
+                                <label for="8.5" class="lbl-toggle">When do students learn/practice the music? Does all music have to be memorized?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="8.6" class="toggle" type="checkbox">
+                                <label for="8.6" class="lbl-toggle">What do students learn later in the season?... Haven't they already learned the show?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="8.7" class="toggle" type="checkbox">
+                                <label for="8.7" class="lbl-toggle">What should students bring to rehearsals?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="8.8" class="toggle" type="checkbox">
+                                <label for="8.8" class="lbl-toggle">What happens if it rains?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="8.9" class="toggle" type="checkbox">
+                                <label for="8.9" class="lbl-toggle">When should students arrive for rehearsals? When should students be picked up?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="8.10" class="toggle" type="checkbox">
+                                <label for="8.10" class="lbl-toggle">Where do students rehearse? Where should students park/be dropped off/picked up? </label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="8.11" class="toggle" type="checkbox">
+                                <label for="8.11" class="lbl-toggle">Can parents/families stay and watch rehearsals?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                        </div>
+                        
+                    </div> 
+                </div> <!--End topic 8-->
+
+            <input id="1" class="toggle" type="checkbox">
+                <label for="1" class="lbl-toggle lbl-toggle-bold">Uniforms (Marching and Concert)</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+            
+                        <div class="wrap-collabsible">
+                            <input id="1.1" class="toggle" type="checkbox">
+                                <label for="1.1" class="lbl-toggle">What is a "bib"</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="1.2" class="toggle" type="checkbox">
+                                <label for="1.2" class="lbl-toggle">Who owns the uniforms? What do uniforms cost?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="1.3" class="toggle" type="checkbox">
+                                <label for="1.3" class="lbl-toggle">Is there a new uniform every year?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="1.4" class="toggle" type="checkbox">
+                                <label for="1.4" class="lbl-toggle">Who washes the uniforms? Are uniforms kept at home?</label>
+                                    <div class="collapsible-content">
+                                        <div class="content-inner">
+                                            This is where the answer goes.
+                                        </div>
+                                    </div>
+          
+                            <input id="1.5" class="toggle" type="checkbox">
+                                <label for="1.5" class="lbl-toggle">What socks and shoes are worn with uniforms?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="1.6" class="toggle" type="checkbox">
+                                <label for="1.6" class="lbl-toggle">I have a uniform problem/concern--who do I contact?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="1.7" class="toggle" type="checkbox">
+                                <label for="1.7" class="lbl-toggle">What do students wear for concerts (as opposed to marching performances?)</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="1.8" class="toggle" type="checkbox">
+                                <label for="1.8" class="lbl-toggle">What do students wear under uniform bibs/pants?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>  <!-- End topic 1-->
+
+
+
+            <!--Topic 3-->
+            <input id="3" class="toggle" type="checkbox">
+                <label for="3" class="lbl-toggle lbl-toggle-bold">Band Performances/Competitions</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+
+                        <!-- Begin topic 3 sub-topics -->
+                        <div class="wrap-collabsible">
+                            <input id="3.1" class="toggle" type="checkbox">
+                                <label for="3.1" class="lbl-toggle">When does the marching band perform? When do the concert bands perform?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <!--<input id="3.2" class="toggle" type="checkbox">
+                                <label for="3.2" class="lbl-toggle">When do the concert bands perform?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>-->
+          
+                            <input id="3.3" class="toggle" type="checkbox">
+                                <label for="3.3" class="lbl-toggle">Does the marching band perform at every football game?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="3.4" class="toggle" type="checkbox">
+                                <label for="3.4" class="lbl-toggle">What is the typical schedule for a band student on a football game day?</label>
+                                    <div class="collapsible-content">
+                                        <div class="content-inner">
+                                            This is where the answer goes.
+                                        </div>
+                                    </div>
+          
+                            <input id="3.5" class="toggle" type="checkbox">
+                                <label for="3.5" class="lbl-toggle">Do parents/families attend football games? Do they have to buy tickets? What's a typical schedule for attendees?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="3.6" class="toggle" type="checkbox">
+                                <label for="3.6" class="lbl-toggle">What is the "Lafayette Invitational"? Does the band perform at the Invitational?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="3.7" class="toggle" type="checkbox">
+                                <label for="3.7" class="lbl-toggle">What is/When is... "BOA"? "Indy"? "Johnson City"? "State"?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="3.8" class="toggle" type="checkbox">
+                                <label for="3.8" class="lbl-toggle">What are "prelims" and "finals"?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="3.9" class="toggle" type="checkbox">
+                                <label for="3.9" class="lbl-toggle">Are band competitions really "competitions"? How are bands scored?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="3.10" class="toggle" type="checkbox">
+                                <label for="3.10" class="lbl-toggle">When are band competitions? How many does the band participate in?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="3.11" class="toggle" type="checkbox">
+                                <label for="3.11" class="lbl-toggle">What is the typical schedule for band students on competition days?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="3.12" class="toggle" type="checkbox">
+                                <label for="3.12" class="lbl-toggle">How do students get to/from competitions/performances? Can parents/families ride with band students?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="3.13" class="toggle" type="checkbox">
+                                <label for="3.13" class="lbl-toggle">Do parents/families/friends attend band competitions? How do they get there?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="3.14" class="toggle" type="checkbox">
+                                <label for="3.14" class="lbl-toggle">If I attend a competition, what should I expect? What schedule should I plan? What should I bring?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="3.15" class="toggle" type="checkbox">
+                                <label for="3.15" class="lbl-toggle">Do attendees have to pay to get into band competitions? ...BOA events? ...State?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="3.16" class="toggle" type="checkbox">
+                                <label for="3.16" class="lbl-toggle">What are "parent performances"?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="3.17" class="toggle" type="checkbox">
+                                <label for="3.17" class="lbl-toggle">How are instruments, props, sets, etc., transported to competitions/performances?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div> <!--End topic 3-->
+
+
+
+            <!--Topic 5-->
+            <input id="5" class="toggle" type="checkbox">
+                <label for="5" class="lbl-toggle lbl-toggle-bold">Food</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+
+                        <!-- Begin topic 5 sub-topics -->
+                        <div class="wrap-collabsible">
+                            <input id="5.1" class="toggle" type="checkbox">
+                                <label for="5.1" class="lbl-toggle">Is food provided for students at football games, band competitions, band camp, mini-camps, BOA, or State?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="5.2" class="toggle" type="checkbox">
+                                <label for="5.2" class="lbl-toggle">How are food allergies handled?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="5.3" class="toggle" type="checkbox">
+                                <label for="5.3" class="lbl-toggle">Can/Should I bring snacks/money for food to competitions/rehearsals?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            
+                        </div>
+                        
+                    </div>
+                </div> <!--End topic 5-->
+
+            <!--Topic 6-->
+            <input id="6" class="toggle" type="checkbox">
+                <label for="6" class="lbl-toggle lbl-toggle-bold">Finances/Fundraising/LBA</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+
+                        <!-- Begin topic 6 sub-topics -->
+                        <div class="wrap-collabsible">
+                            <input id="6.1" class="toggle" type="checkbox">
+                                <label for="6.1" class="lbl-toggle">What is the Lafayette Band Association (LBA)? What does the LBA do/provide?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="6.2" class="toggle" type="checkbox">
+                                <label for="6.2" class="lbl-toggle">Without the LBA, what would the district provide/make possible?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="6.3" class="toggle" type="checkbox">
+                                <label for="6.3" class="lbl-toggle">How much money, per student, does it cost to do all the things the band does?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="6.4" class="toggle" type="checkbox">
+                                <label for="6.4" class="lbl-toggle">How much does the band spend on uniforms, a whole band day trip, a whole band overnight trip, food to feed the whole band, show music, props/sets</label>
+                                    <div class="collapsible-content">
+                                        <div class="content-inner">
+                                            This is where the answer goes.
+                                        </div>
+                                    </div>
+          
+                            <input id="6.5" class="toggle" type="checkbox">
+                                <label for="6.5" class="lbl-toggle">What are the major ways the LBA raises money to support the band? How much of what the LBA raises goes directly to supporting band activities?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="6.6" class="toggle" type="checkbox">
+                                <label for="6.6" class="lbl-toggle">What are SnapRaise, RaiseRight, Discount Cards, Bingo, and Spirit Nights?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="6.7" class="toggle" type="checkbox">
+                                <label for="6.7" class="lbl-toggle">Is participating in fundraising required?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="6.8" class="toggle" type="checkbox">
+                                <label for="6.8" class="lbl-toggle">What is the "family contribution"? How much is it?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="6.9" class="toggle" type="checkbox">
+                                <label for="6.9" class="lbl-toggle">What is the "family contribution" if I have more than one kid in the band?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="6.10" class="toggle" type="checkbox">
+                                <label for="6.10" class="lbl-toggle">What happens if I don't pay the family contribution?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="6.11" class="toggle" type="checkbox">
+                                <label for="6.11" class="lbl-toggle">Can I "earn" my family contribution by working for the band, instead of paying it? Are there in-kind donations I could make?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+
+                        </div>
+
+                    </div>
+                </div> <!--End topic 6-->
+
+            <!--Topic 7-->
+            <input id="7" class="toggle" type="checkbox">
+                <label for="7" class="lbl-toggle lbl-toggle-bold">Getting Connected</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+
+                        <!-- Begin topic 7 sub-topics -->
+                        <div class="wrap-collabsible">
+                            <input id="7.1" class="toggle" type="checkbox">
+                                <label for="7.1" class="lbl-toggle">What is the "Charms" database?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="7.2" class="toggle" type="checkbox">
+                                <label for="7.2" class="lbl-toggle">How do I communicate with other families in the band?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="7.3" class="toggle" type="checkbox">
+                                <label for="7.3" class="lbl-toggle">Are there groups/lists for students/parents in my student's section?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="7.4" class="toggle" type="checkbox">
+                                <label for="7.4" class="lbl-toggle">What is "Remind"? How do I get connected?</label>
+                                    <div class="collapsible-content">
+                                        <div class="content-inner">
+                                            This is where the answer goes.
+                                        </div>
+                                    </div>
+          
+                            <input id="7.5" class="toggle" type="checkbox">
+                                <label for="7.5" class="lbl-toggle">What is the Big Brother/Big Sister picnic?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="7.6" class="toggle" type="checkbox">
+                                <label for="7.6" class="lbl-toggle">What is the Band Banquet? When is it? Who attends?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="7.7" class="toggle" type="checkbox">
+                                <label for="7.7" class="lbl-toggle">What is the eNews?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+                        </div>
+                        
+                    </div>
+                </div> <!--End topic 7-->
+
+
+
+            <!--Topic 9-->
+            <input id="9" class="toggle" type="checkbox">
+                <label for="9" class="lbl-toggle lbl-toggle-bold">Showing your "Pride of the Bluegrass" Spirit</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+
+                        <!-- Begin topic 9 sub-topics -->
+                        <div class="wrap-collabsible">
+                            <input id="9.1" class="toggle" type="checkbox">
+                                <label for="9.1" class="lbl-toggle">What are letters, bars, and patches?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="9.2" class="toggle" type="checkbox">
+                                <label for="9.2" class="lbl-toggle">What is the "Band Store"? When is it open? What do they sell?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="9.3" class="toggle" type="checkbox">
+                                <label for="9.3" class="lbl-toggle">Are band jackets still a thing?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="9.4" class="toggle" type="checkbox">
+                                <label for="9.4" class="lbl-toggle">What are red bags?</label>
+                                    <div class="collapsible-content">
+                                        <div class="content-inner">
+                                            This is where the answer goes.
+                                        </div>
+                                    </div>
+          
+                            <input id="9.5" class="toggle" type="checkbox">
+                                <label for="9.5" class="lbl-toggle">Where can I get photo buttons, magnets, lanyards?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="9.6" class="toggle" type="checkbox">
+                                <label for="9.6" class="lbl-toggle">What are the French flags for? Where do I get some?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="9.7" class="toggle" type="checkbox">
+                                <label for="9.7" class="lbl-toggle">What is the chant we do for the band as they come onto the field?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+                        </div>
+                        
+                    </div> <!--End topic 9-->
+                </div>
+
+            <!--Topic 10-->
+            <input id="10" class="toggle" type="checkbox">
+            <label for="10" class="lbl-toggle lbl-toggle-bold">Other</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+
+                        <!--Begin topic 10 sub-topics-->
+                        This is where the answer goes.
+                    </div> <!--End topic 10-->
+                </div>
+
+            <!--Topic 11-->
+            <input id="11" class="toggle" type="checkbox">
+            <label for="11" class="lbl-toggle lbl-toggle-bold">Color Guard</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+
+                        <!--Begin topic 11 sub-topics-->
+                        <div class="wrap-collabsible">
+                            <input id="11.1" class="toggle" type="checkbox">
+                                <label for="11.1" class="lbl-toggle">What is the Color Guard? Is it part of the band?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="11.2" class="toggle" type="checkbox">
+                                <label for="11.2" class="lbl-toggle">Who can join the color guard? I play an instrument, can I join the color guard?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="11.3" class="toggle" type="checkbox">
+                                <label for="11.3" class="lbl-toggle">Do I have to play an instrument to join the color guard?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+          
+                            <input id="11.4" class="toggle" type="checkbox">
+                                <label for="11.4" class="lbl-toggle">Do you have to audition to join the color guard? Who select color guard members?</label>
+                                    <div class="collapsible-content">
+                                        <div class="content-inner">
+                                            This is where the answer goes.
+                                        </div>
+                                    </div>
+          
+                            <input id="11.5" class="toggle" type="checkbox">
+                                <label for="11.5" class="lbl-toggle">Does the color guard practice at the same time as the band?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+
+                            <input id="11.6" class="toggle" type="checkbox">
+                                <label for="11.6" class="lbl-toggle">What are sabers? ... rifles? ... flags? ... silks?</label>
+                                <div class="collapsible-content">
+                                    <div class="content-inner">
+                                        This is where the answer goes.
+                                    </div>
+                                </div>
+                        
+
+                    </div> <!--End topic 11-->
+                </div>
+
+        </div> <!--End all topics-->
+
+    </div> <!--End container holding collapsible topics-->
+</body>
+</html>
