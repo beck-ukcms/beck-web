@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Band Family Guide</title>
+    <style>
+        /* Basic page set-up */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+    }
+
+    h1 {
+      color: #0099cc;
+      text-align: center;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    /* Basic page tools */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #0099cc;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0077b3;
+    }
+
+    /* Expandable list */
+    input[type='checkbox'] { display: none; }
+    .wrap-collabsible { margin: 1.0rem 0; }
+    .lbl-toggle { display: block; margin: 4px 2px 0px 2px;
+        text-align: left; padding: 0.6rem 1.0rem; color: #333; background: #c7c7c7; 
+        cursor: pointer; border-radius: 5px; transition: all 0.25s ease-out; }
+    .lbl-toggle-bold {font-weight: bold;}
+    .lbl-toggle:hover { color: #555; background: #e7e7e7; }
+    .lbl-toggle::before { content: ' '; display: inline-block; 
+        border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 5px solid currentColor;
+        vertical-align: middle; margin-right: .7rem; transform: translateY(-2px); transition: transform .2s ease-out; }
+    .toggle:checked +.lbl-toggle::before { transform: rotate(90deg) translateX(-3px); }
+    .collapsible-content { max-height: 0px; overflow: hidden; transition: max-height .25s ease-in-out; }
+    .toggle:checked + .lbl-toggle + .collapsible-content { max-height: 5500px; }
+    .toggle:checked + .lbl-toggle { border-bottom-right-radius: 0; border-bottom-left-radius: 0; }
+    .collapsible-content .content-inner { background: #efefef; margin: 0px 2px 2px 2px;
+        border-bottom: 0px solid #333; border-bottom-left-radius: 5px; 
+        border-bottom-right-radius: 5px; padding: .5rem 1rem; }
+    .collapsible-content p { margin-bottom: 0; }
+
+
+  </style>
+</head>
+<body>
+    <div class="container">
+        <h1>A Million-and-One FAQs for New Band Families</h1>
+        <p>Whether you have a student thinking about joining the Lafayette Band, a "new marcher" coming in this year, or are getting set for another marching season, here are about a million-and-one questions you might have! This page is maintained by parent members of the LBA, so is not "official policy". For serious questions, or a statement of that "official" policy, please contact the band director, Mr. Dee Bishop--he is happy to answer any questions you might have. In addition, to get a live, real-time picture of what's going on, be sure to check the eNews, or swing by the LBA Facebook page.</p>
+        
+        <p>Regardless, we are thrilled you are here--we're a family, and we're committed to welcoming you and your student, and supporting you! TOGETHER is how we offer positive experiences to all our students!</p>
+        
+        <p style="text-align:center"><a href="index.html" class="button">Return to Lafayette Band homepage!</a></p>
+    </div>
+
+    <div class="container">
+
+        <div class="wrap-collabsible">
