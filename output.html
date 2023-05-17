@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Band Family Guide</title>
+    <style>
+        /* Basic page set-up */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+    }
+
+    h1 {
+      color: #0099cc;
+      text-align: center;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    /* Basic page tools */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #0099cc;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0077b3;
+    }
+
+    /* Expandable list */
+    input[type='checkbox'] { display: none; }
+    .wrap-collabsible { margin: 1.0rem 0; }
+    .lbl-toggle { display: block; margin: 4px 2px 0px 2px;
+        text-align: left; padding: 0.6rem 1.0rem; color: #333; background: #c7c7c7; 
+        cursor: pointer; border-radius: 5px; transition: all 0.25s ease-out; }
+    .lbl-toggle-bold {font-weight: bold;}
+    .lbl-toggle:hover { color: #555; background: #e7e7e7; }
+    .lbl-toggle::before { content: ' '; display: inline-block; 
+        border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 5px solid currentColor;
+        vertical-align: middle; margin-right: .7rem; transform: translateY(-2px); transition: transform .2s ease-out; }
+    .toggle:checked +.lbl-toggle::before { transform: rotate(90deg) translateX(-3px); }
+    .collapsible-content { max-height: 0px; overflow: hidden; transition: max-height .25s ease-in-out; }
+    .toggle:checked + .lbl-toggle + .collapsible-content { max-height: 5500px; }
+    .toggle:checked + .lbl-toggle { border-bottom-right-radius: 0; border-bottom-left-radius: 0; }
+    .collapsible-content .content-inner { background: #efefef; margin: 0px 2px 2px 2px;
+        border-bottom: 0px solid #333; border-bottom-left-radius: 5px; 
+        border-bottom-right-radius: 5px; padding: .5rem 1rem; }
+    .collapsible-content p { margin-bottom: 0; }
+
+
+  </style>
+</head>
+<body>
+    <div class="container">
+        <h1>A Million-and-One FAQs for New Band Families</h1>
+        <p>Whether you have a student thinking about joining the Lafayette Band, a "new marcher" coming in this year, or are getting set for another marching season, here are about a million-and-one questions you might have! This page is maintained by parent members of the LBA, so is not "official policy". For serious questions, or a statement of that "official" policy, please contact the band director, Mr. Dee Bishop--he is happy to answer any questions you might have. In addition, to get a live, real-time picture of what's going on, be sure to check the eNews, or swing by the LBA Facebook page.</p>
+        
+        <p>Regardless, we are thrilled you are here--we're a family, and we're committed to welcoming you and your student, and supporting you! TOGETHER is how we offer positive experiences to all our students!</p>
+        
+        <p style="text-align:center"><a href="index.html" class="button">Return to Lafayette Band homepage!</a></p>
+    </div>
+
+    <div class="container">
+
+        <div class="wrap-collabsible">
+<!--Topic 1-->
+<input id="1" class="toggle" type="checkbox">
+  <label for="1" class="lbl-toggle lbl-toggle-bold">General Band Information</label>
+    <div class="collapsible-content"> <div class="content-inner">
+      <!-- Begin topic 1 sub-topics -->
+      <div class="wrap-collabsible">
+<input id="1.1" class="toggle" type="checkbox">
+<label for="1.1" class="lbl-toggle">Can anybody join the band? What are auditions for?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Any student eligible to attend Lafayette High School can join the band! Band is an elective class available to all students, though prior experience playing a band instrument is recommended. Any student who enrolls in band class is automatically a member of the marching band, and participation in the marching band is a component of all band classes. Students who play a school-sponsored Fall sport can request an exemption from this requirement.
+There are three concert bands at LHS (Wind Symphony, Symphonic Band, and Concert Band) that meet during the school day as individual classes. An audition process occurs each spring to place students (for the following Fall) in the concert band most appropriate to their skill and experience level. Members of all three concert bands come together in the marching band.
+Additionally, students in 8th grade who are districted to attend Lafayette HS can join the band as an extracurricular activity.</p>
+</div>
+</div>
+<input id="1.2" class="toggle" type="checkbox">
+<label for="1.2" class="lbl-toggle">What are/Who are drum majors? ... Section leaders? How are they selected?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Drum majors are the conductors of the marching band, and serve as performance and musical leaders for the entire band. Section leaders are experienced band members selected to lead the individual sections of the band. Each year there are 3-4 drum majors selected from the whole band and 1-4 section leaders for each section.
+Selection as either a drum major or section leader is a significant honor, as selection is competitive based on auditions and interviews. Drum major training, auditions, and interviews are open to any interested band member and occur in the spring. The band directors select drum majors for the following year. Further interviews (open to any interested band member) are used by the band directors and drum majors to select section leaders.</p>
+</div>
+</div>
+<input id="1.3" class="toggle" type="checkbox">
+<label for="1.3" class="lbl-toggle">What is the Color Guard? Are they part of the band? Where can I get more info?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The Color Guard is a non-instrumental section of the marching band that performs on the field as part of the band. Traditionally they perform with flags, rifles, and sabers, and perform dance- and acrobatics-based moves. The Color Guard is a critical part of the band, and is open to any interested student in MS or HS. During the non-marching season, the Color Guard competes in "Winter Guard" competitions. Instrumentalists enrolled in band class can join the Color Guard instead of marching with their instrument, but you do not have to be in band class or play an instrument to join the Color Guard! Ms. Emily Banks is *TITLE HERE*, and *NAME* and *NAME* are the Color Guard student captains for 2023-2024.</p>
+</div>
+</div>
+<input id="1.4" class="toggle" type="checkbox">
+<label for="1.4" class="lbl-toggle">What is the Drum Line? ... the "pit"? Where can I get more info?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The percussion section plays both marching instruments (snares, quints, bass drums) and non-marching instruments that are usually located on the front sideline (marimbas, xylophones, chimes, cymbals, timpani, synthesizers, drum kits, etc.). The "drum line" is the set of band members who play marching instruments, while the "pit" or "front ensemble" is the set of band members who play non-marching instruments. At times, non-percussion non-marching instrumentalists (guitars, oboes, etc.) perform as part of the pit/front ensemble. While all percussion players in the band are members of the percussion section and perform with the marching band, selection to the drum line specifically is highly competitive.</p>
+</div>
+</div>
+<input id="1.5" class="toggle" type="checkbox">
+<label for="1.5" class="lbl-toggle">What are the Wind Symphony, Symphonic Band, Concert Band, Jazz Band, and Jazz Ensemble?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Students enrolled in band class are placed into one of three different concert bands, which meet during the school day as three different classes. Students with the most experience and technical skill are placed in the Wind Symphony, while most beginning students are placed in the Concert Band.
+Jazz Band and Jazz Ensemble are additional elective classes for students interested in Jazz performance. The most experienced and skilled students are placed into Jazz Ensemble.
+Every student who enrolls in band class (Jazz band class) is guaranteed placement into one of the three bands (Jazz Band or Jazz Ensemble). Auditions for placement into these groups occur in the Spring, and all middle school band directors are provided detailed information on how students at their schools (if attending LHS) can audition.</p>
+</div>
+</div>
+<input id="1.6" class="toggle" type="checkbox">
+<label for="1.6" class="lbl-toggle">How do you get into the [insert band/ensemble]?)</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Ensemble placement is decided by auditions that occur during the spring before the next school year begins. Students are assigned to a band/ensemble based on skill level and experience by the band directors.</p>
+</div>
+</div>
+<input id="1.7" class="toggle" type="checkbox">
+<label for="1.7" class="lbl-toggle">Who are the band staff and what do they do?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Robert Dee Bishop is the Director of Bands and Dr. Chris Strange and Mr. Aaron Jones are the Associate Directors. Emily Banks is in charge of the Color Guard.  There are other band staff that assist with marching and sectional instruction throughout the year.</p>
+</div>
+</div>
+<input id="1.8" class="toggle" type="checkbox">
+<label for="1.8" class="lbl-toggle">What are the sections in the band?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Sections are groups of players with common/similar instruments. The Lafayette Band sections are: Flutes, Clarinets, Low Reeds, Alto Sax, Trumpets, Mellophones, Trombones+Baritones, Tubas, Percussion, and Color Guard. Each section has one or more section leaders. During marching season, these groups will both have full band and section specific rehearsals (sectionals, which are usually one evening a week). During the winter concert season, sections perform as "chamber" groups which meet weekly in the evening.</p>
+</div>
+</div>
+<input id="1.9" class="toggle" type="checkbox">
+<label for="1.9" class="lbl-toggle">Where does the marching show music come from?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The directors choose selections from a wide range of musical literature to use as source music. This is sent to professional band composers to combine into a unique musical setting. The marching forms, also called drill, (the patterns and shapes formed by the band, and the paths by which individual band members move to form these shapes) are also created by professionals to match and augment the full musical setting. The LBA provides funds each year to cover the costs of this work. While it is possible to use music and marching composed for other bands in previous years, top bands, including the Lafayette Marching Band, commision new and unique music and marching tailored to their available instruments and marchers every year.</p>
+</div>
+</div>
+<input id="1.10" class="toggle" type="checkbox">
+<label for="1.10" class="lbl-toggle">What is a "movement" in the marching show?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The full marching show is about 10 minutes long (see questions in "Band Performances/Competitions for details on rules/judging, incluing details of timing), and generally consists of ~3 identifiable sections. Often the show is learned section-by-section, but otherwise these "movements" are just like movements in an orchestral work--parts of the whole.</p>
+</div>
+</div>
+<input id="1.11" class="toggle" type="checkbox">
+<label for="1.11" class="lbl-toggle">What are sets/props? Who designs them? Who builds/transports them?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>To contribute to the overall effect of the band's performance, set pieces and or props are used on the field. Sets and props are pieces of scenery or accessories just like would be used in a play or musical on stage, and may be things that move, are climbed on, or are carried by band members. Generally, set and prop design is completed by the show designer (see "Where does the marching show music come from?"), and are entirely built by our Field Crew. Sets and props are loaded onto, driven by, unloaded by, and brought onto the field by the Field Crew as well! We're always looking for more Field Crew members, so if you'd like to help build or transport sets and props, or to have a chance to be on the sideline down on the field while the students perform, email **FIELD CREW CHIEF**!</p>
+</div>
+</div>
+<input id="1.12" class="toggle" type="checkbox">
+<label for="1.12" class="lbl-toggle">What are new marchers? ... 8th-grade marchers?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>New marchers are any students who are in their first year with the marching band.  This could include any student in any grade who is new to band. Often these students are freshman at LHS, but 8th graders zoned to attend LHS are also eligible to join the band. Generally previous year 8th grade marchers join their classmates at new marcher events their freshman year.</p>
+</div>
+</div>
+<!--Topic 2-->
+<input id="2" class="toggle" type="checkbox">
+  <label for="2" class="lbl-toggle lbl-toggle-bold">Calendar and Schedule Info</label>
+    <div class="collapsible-content"> <div class="content-inner">
+      <!-- Begin topic 2 sub-topics -->
+      <div class="wrap-collabsible">
+<input id="2.1" class="toggle" type="checkbox">
+<label for="2.1" class="lbl-toggle">When is "marching season"?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Marching season starts with band camp in mid-July and ends with the Kentucky Music Educators Association (KMEA) State Championship, which is held each year at the end of October. In addition, the Lafayette Band marches in the Lexington Holiday Parade in December.</p>
+</div>
+</div>
+<input id="2.2" class="toggle" type="checkbox">
+<label for="2.2" class="lbl-toggle">Where can I see a schedule of all rehearsals, performances, competitions, camps, etc.?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The band website (www.lafayetteband.org) hosts a calendar that can be synced with your phone, and a detailed breakdown of the current week's schedule is emailed in the e-News every Sunday evening. Reminders and notes are often shared via Remind and on the LBA Facebook page (see more in "Getting Connected", below!).</p>
+</div>
+</div>
+<input id="2.3" class="toggle" type="checkbox">
+<label for="2.3" class="lbl-toggle">Do all band sections have the same schedules?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>No! The different sections have a range of overlapping and individual rehearsals. During marching season these generally occur after school from about 3pm until ~6:30pm. This is in addition to "camps" (all day rehearsals) during school breaks. The Color Guard and Percussion section often have separate rehearsals, and each instrumental section has rehearsal with other instrumentalists and their own sections. Contact your section leader and/or see the band calendar at www.lafayetteband.org for more details!</p>
+</div>
+</div>
+<input id="2.4" class="toggle" type="checkbox">
+<label for="2.4" class="lbl-toggle">Do students have to attend all scheduled practices? ... competitions and/or performances?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Yes! It is critical that every student attend every rehearsal and competition! Mr. Bishop can approve requests for absences, but generally only does so for illness or family emergencies. If you have concerns or questions, please contact Mr. Bishop directly!</p>
+</div>
+</div>
+<input id="2.5" class="toggle" type="checkbox">
+<label for="2.5" class="lbl-toggle">What if I have a family vacation or commitment that conflicts with a mini-camp, band camp, fall break rehearsals, competitions or performances?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>It is not advised to plan a vacation during marching season.  If you have a conflict, please contact Mr. Bishop immediately.  </p>
+</div>
+</div>
+<input id="2.6" class="toggle" type="checkbox">
+<label for="2.6" class="lbl-toggle">What happens if it rains on a rehearsal/competition day?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Occasionally during practice and warm-ups the band may move inside the building to practice if it is raining, but we DO march (and certainly compete!) in the rain.  On competition days, the uniform crew will provide ponchos for the kids.  While the band staff and volunteers do everything possible to protect instruments, please be advised that your instrument may get wet, and will suffer bumps and bruises during marching season.  Typically, if you own a nicer instrument, such as a wood clarinet, you should also have a plastic instrument for marching season.</p>
+</div>
+</div>
+<!--Topic 3-->
+<input id="3" class="toggle" type="checkbox">
+  <label for="3" class="lbl-toggle lbl-toggle-bold">Rehearsals/Band Camp</label>
+    <div class="collapsible-content"> <div class="content-inner">
+      <!-- Begin topic 3 sub-topics -->
+      <div class="wrap-collabsible">
+<input id="3.1" class="toggle" type="checkbox">
+<label for="3.1" class="lbl-toggle">When are rehearsals? Is there band practice on the first day of school?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Check the calendar on the website (www.lafayetteband.org) for up-to-date information. During marching season, rehearsals are typically everyday after school from 3:45 until ~6:15pm. There are "camp" or "mini-camp" rehearsals all day (generally 8 am to 5 pm) the three weeks before school starts, during Fall break, and a few times during the spring. Students should plan to arrive at least 15 minutes before rehearsal starts. While there is practice every school day, Mr. Bishop does not hold practice the first day of school.</p>
+</div>
+</div>
+<input id="3.2" class="toggle" type="checkbox">
+<label for="3.2" class="lbl-toggle">When are camps/mini-camps?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Check the calendar available at www.lafayetteband.org.  They start in April before the upcoming school year. Band Camp happens the last three weeks of summer break. Fall Camp happens during fall break. All "camps" are day camps held at LHS.</p>
+</div>
+</div>
+<input id="3.3" class="toggle" type="checkbox">
+<label for="3.3" class="lbl-toggle">What happens at a typical rehearsal?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Rehearsals start with a warmup routine that students learn at mini camps in the Spring. Warmups include a light jog, stretches, cardio, body (dance-like movements used to add effect while marching), and marching warmup routines. After warmups, sections typically split up (usually split between brass, woodwinds, and percussion) to work on either music, choreography, or drill (marching steps and patterns). Sections go through rotations and work with different directors throughout rehearsal. Towards the end of rehearsal, the whole band will come together and work on drill. This usually includes working on different sets (small segments of the show) and doing a full run of what is completed at the end of rehearsal. Parents and families are encouraged to arrive for pick-up early and watch these run-throughs at the end of rehearsal--it's a great opportunity to meet other parents, get a sense of the work the students do, and show our pride and appreciation of their efforts!... It's also cool to see/hear the show up close as they polish it!</p>
+</div>
+</div>
+<input id="3.4" class="toggle" type="checkbox">
+<label for="3.4" class="lbl-toggle">What do we do about freshman orientation--it conflicts with band camp?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Typically, once the school sets the orientation schedules Mr. Bishop will identify a specific orientation for band students to attend. If all band students attend this orientation it minimizes disruption to rehearsals. Please watch the the calendar on the band webpage at www.lafayetteband.org, or announcements through Remind or on the LBA Facebook Page for more details.</p>
+</div>
+</div>
+<input id="3.5" class="toggle" type="checkbox">
+<label for="3.5" class="lbl-toggle">What do they learn at camps/mini-camps?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>At Spring mini-camps, students learn the body (sets of dance-like movements added to marching to enhance the visual effect of the show) and cardio warmups that are used at every rehearsal during the marching season. At Summer Band Camp, students learn marching fundamentals (how to achieve consistent steps and appearance while marching, how to march in various directions, make turns, and vary step size, all as part of a coherent group), show music, drill (the patterns of marching that form shapes on the field), and choreography (the body movements that enhance visual effect). The 1st movement (see above, "What is a movement?") of the show is the main focus, as the band will perform it at the Parent Performance on the last day of camp. At Fall Camp, the band focuses on learning the 3rd movement/last parts of the show. </p>
+</div>
+</div>
+<input id="3.6" class="toggle" type="checkbox">
+<label for="3.6" class="lbl-toggle">When do students learn/practice the music? Does all music have to be memorized?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Students will learn music at camps and during band class. Students work with band directors and section leaders to learn and rehearse music. All music for the show must be memorized.</p>
+</div>
+</div>
+<input id="3.7" class="toggle" type="checkbox">
+<label for="3.7" class="lbl-toggle">What do students learn later in the season?... Haven't they already learned the show?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Students will learn music for the whole show earlier in the season. However, drill for the show is constructed until the beginning of October. We will not learn the whole show at band camp, as Mr. Bishop prefers to work on each movement individually for several weeks. The whole show is typically completed during fall band camp. </p>
+</div>
+</div>
+<input id="3.8" class="toggle" type="checkbox">
+<label for="3.8" class="lbl-toggle">What should students bring to rehearsals?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Students should bring their instrument, music, a towel (beach towel size), sunscreen, waterjug, and comfortable shoes and clothing. We work outside on the parking lot usually, so towels are used for comfort (e.g., to sit on) during warmups. Rehearsals are physical, and it can be quite hot, so all students should wear deoderant. A hat that shades the face and neck can also be useful. Sunscreen should be applied before arrival, and reapplied throughout the day. Students with medical needs or concerns must contact Mr. Bishop and the Chaperones before summer band camp.</p>
+</div>
+</div>
+<input id="3.9" class="toggle" type="checkbox">
+<label for="3.9" class="lbl-toggle">What happens if it rains?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>It depends on the severity of the rain. If there is light rain with no thunder or lightning, students continue to work outside. It is advised to check the weather before rehearsal to decide whether to bring a raincoat or poncho. If there is lightning, thunder, and heavy rain, students will work inside, usually in the cafeteria or band room. As noted elsewhere, while every effort is made to protect instruments, that can get wet and/or suffer bumps and bruises, so it is highly recommended to march with a less expensive instrument.</p>
+</div>
+</div>
+<input id="3.10" class="toggle" type="checkbox">
+<label for="3.10" class="lbl-toggle">When should students arrive for rehearsals? When should students be picked up?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>At least 15 minutes before the scheduled start time, as students need to be ready to go at the scheduled time. Check the calendar for rehearsal start times. Summer band camp usually begins at 8am, and ends at 5pm. School day rehearsals start at 3:45pm and usually go until 6:15pm. It is advised to arrive at least 15 minutes before rehearsal starts. It is important to note that if a rehearsal ends at a certain time, that is when students stop rehearsing; NOT when students will be leaving. Mr. Bishop, drum majors, section leaders, etc., typically give important announcements at the end of each rehearsal that take about 5-10 minutes, and students must gather their things and head to the senior lot. We encourage all parents and guardians to arrive early for pick-up and walk over to the band lot (practice area) to see and hear the days final run-through and to meet other parents and families!</p>
+</div>
+</div>
+<input id="3.11" class="toggle" type="checkbox">
+<label for="3.11" class="lbl-toggle">Where do students rehearse? Where should students park/be dropped off/picked up?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Students mainly rehearse in the band parking lot. This lot is on the back side of the school (near the Band room entrance) closest to the footbal stadium. It has two entrances on either side of the XXXX building. These entrances will be blocked off during band practice, and no cars may drive on or through the band lot before, during, or after practice. Students should be dropped off and picked up in the senior parking lot, located right next to the band lot. This is to ensure the kids' safety. The Senior lot has one entrance just before the softball field. After school hours students and parents/guardians can park in the senior lot. In fact, we encourage parents and guardians to arrive early for pick-up, leave your car in the senior lot, and come over to the band lot to see and hear the final run-through of the day. It's a great way to see the work students are putting in up close, and to meet other parents and families!</p>
+</div>
+</div>
+<input id="3.12" class="toggle" type="checkbox">
+<label for="3.12" class="lbl-toggle">What is spunity?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Spunity is a combined word of spirit and unity. Spunity is spirit week that happens the second and third week of band camp. Each section decides on themes for each day of the week, and students will dress up as that theme. Spunity is a fun way for sections to bond and work together, as it is a competition. The section that shows the most spirit, unity, sportsmanship, energy, and pride will be awarded the Spunity Stick, a long standing tradition of the Lafayette Band, at the end of band camp.  </p>
+</div>
+</div>
+<input id="3.13" class="toggle" type="checkbox">
+<label for="3.13" class="lbl-toggle">Can parents/families stay and watch rehearsals?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Generally, yes! In fact we encourage parents and guardians to arrive early for pick-up, park in the senior lot, and walk over to the band lot to see and hear the final run-through of the day! It's a great way to get a sense of the work the students are doing, and to meet other parents and families. NOTE: we do request that no video or audio recordings of band rehearsals are taken. With 22 state championships, and a nationally competitive band program, other bands are constantly angling to see and hear "what Lafayette is doing". We want them to see and hear us... at competitions and other public performances when we are ready!</p>
+</div>
+</div>
+<input id="3.14" class="toggle" type="checkbox">
+<label for="3.14" class="lbl-toggle">What is fall band camp?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Fall band camp happens during fall break, usually on Wednesday, Thursday, and Friday of break. Students rehearse from morning until the evening. Students typically focus on learning drill (the marching patterns and body movements) for the third movement and cleaning up the entire show. </p>
+</div>
+</div>
+<!--Topic 4-->
+<input id="4" class="toggle" type="checkbox">
+  <label for="4" class="lbl-toggle lbl-toggle-bold">Band Performances/Competitions</label>
+    <div class="collapsible-content"> <div class="content-inner">
+      <!-- Begin topic 4 sub-topics -->
+      <div class="wrap-collabsible">
+<input id="4.1" class="toggle" type="checkbox">
+<label for="4.1" class="lbl-toggle">When does the marching band perform? When do the concert bands perform?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The first "perfomance" by the marching band each year is the Parent Performance at the end of Band Camp. This informal performance in the LHS stadium shows off the progress made towards learning the show at Band Camp. The marching band performs at every Home football game during halftime. Through September and October the band performs at ~3-4 band competitions which are held in surrounding counties on Saturdays. The band performs at the Lafayette Invitational on a Saturday in mid-September (at LHS). The band closes the marching season by performing at the KMEA State Championship in late October, and marches in the Lexington Holiday Parade. Concert bands and instrumental chamber groups perform a number of concerts in the winter and spring.</p>
+</div>
+</div>
+<input id="4.2" class="toggle" type="checkbox">
+<label for="4.2" class="lbl-toggle">Does the marching band perform at every football game?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The marching band performs at halftime at every HOME football game. We do not travel to away games.</p>
+</div>
+</div>
+<input id="4.3" class="toggle" type="checkbox">
+<label for="4.3" class="lbl-toggle">What is the typical schedule for a band student on a football game day?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Students are generally required to report to the band room to prepare for a football game sometime between 4 pm and 5 pm (depending on the exact start time of the game). Students should eat between the end of school and this report time, if at all possible. There is generally a brief rehearsal in the band lot, and then the students march as a block to the stadium. They are in place in a reserved section at the north end of the home stands at least 30 minutes prior to the game, and perform the National Anthem approximately 10 minutes before the game begins. Students remain in the stands during the first half, making their way to the sideline as the first half ends. They perform one or more movements of the show on the field, then return to their section in the stands. If there is a competition the next day, students are sometimes released before the end of the game. Students walk back to the band room to change out of their uniforms, and filter out of the band room door to leave. On Football Fridays, once the band marches to the stadium, the band lot is opened for spectator parking. As with all band performances, a detailed schedule is provided to the students listing all necessary report times.</p>
+</div>
+</div>
+<input id="4.4" class="toggle" type="checkbox">
+<label for="4.4" class="lbl-toggle">Do parents/families attend football games? Do they have to buy tickets? What's a typical schedule for attendees?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Parents and familes are strongly encouraged to attend football games!! We sit all over the stadium, but often congregate near the band section (north end of the home stands) or near the 50 yard line, often 1/2 to 2/3rds of the way up (for a good view!). Definitely bring you flags, and wear your band pins and Lafayette gear! Parents and family members do have to buy tickets, which are available at the gate. Tickets are $$$, and they accept both cash and credit card, though cash can be faster. The band marches as a block from the band lot (where they rehearse briefly before the game) along the side walk south of the baseball field. They enter through the gate on the northwest corner, and enter the stands on the ramp at the north end of the stadium. Parents and families may NOT sit with the band or in the band section. It is recommended that parents and families enter the stadium using the center ramp. The Lafayette students stand at the front of the stands just to the north of the 50 yard line in front of the cheerleaders. Many parents and families gather to see the band finish rehearsing and line the sidewalk they march along on the way to the stadium. To see the band march to the stadium families should plan to arrive AT LEAST 30 minutes (generally 60 minutes) before the scheduled game start time. Families should park in the senior lot, as the band lot will still be closed for rehearsal. Often families will leave the stands to walk with their band student from the stadium back to the school whenever the band is released. Depending on your student, it can take as few as 10 minutes to change out of the uniform and be ready to head home. There is general concession food available in the stadium at the south end of the home stands, though it is possible to bring outside food into the stadium. A fun option is to arrive early to watch rehearsal, bringing food to picnic along the outside of the band lot. Football games are quite short, with only 12 minute quarters, and a 20 minute half time. If the score is not competitive, the clock runs continuously. A typical first half can be as short as 30 minutes, ranging up to ~45 minutes. Plan accordingly if you aim to attend only for the half-time performance. See additional notes on what to bring to the stadium in "What to bring to band performances/competitions".</p>
+</div>
+</div>
+<input id="4.5" class="toggle" type="checkbox">
+<label for="4.5" class="lbl-toggle">What is the "Lafayette Invitational"? Does the band perform at the Invitational?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The Lafayette Invitational is a marching band competition run by the Lafayette Band and hosted in the Lafayette Stadium. This is an extensive all-day event which raises a substantial amount of money for the band. Students and parents sign up for different jobs and shifts throughout the day to help the event run smoothly. Lafayette Band performs in exhibition after all bands have competed in finals. Exhibition means the band in not judged, but does perform.</p>
+</div>
+</div>
+<input id="4.6" class="toggle" type="checkbox">
+<label for="4.6" class="lbl-toggle">What is/When is... "BOA"? "Indy"? "Johnson City"? "State"?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>BOA is an acronym for Bands of America. BOA is an organization that runs large marching band competitions nationwide, at different levels. These levels include regional, super regional, and grand national competitions. Lafayette Band usually partakes in one of these competitions in mid October. In the past, Lafayette Band has attended BOA competitions in Indianapolis, IN and Johnson City, TN. The Kentucky Music Educators Association (KMEA) State Marching Band Championship is not affiliated with BOA. The state competition is the largest competition for marching bands in Kentucky. Students compete with other bands in their class for the coveted state title--of which Lafayette has won 22--by far the most of any school. "State" occurs at the end of the marching season in late October and is held at a Kentucky university.</p>
+</div>
+</div>
+<input id="4.7" class="toggle" type="checkbox">
+<label for="4.7" class="lbl-toggle">What are "prelims" and "finals"?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Prelims are the first (preliminary) round of performances at a competition. Bands are judged within their class and scored accordingly. The prelims score determines the bands placement in finals competition, during which finalist bands perform a second time. The top scoring bands from prelims, regardless of class of competition, advance to the finals round. Scores from a band's finals performance (the second of the day) determine the Grand Champion (overall competition winner). The KMEA State Championship differs in that there are separate finals competitions for each class.</p>
+</div>
+</div>
+<input id="4.8" class="toggle" type="checkbox">
+<label for="4.8" class="lbl-toggle">Are band competitions really "competitions"? How are bands scored?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Yes! Anywhere between 10 and 20 (or more) bands will gather for a competition. They are intially grouped based on a combination of the size of the band (number of student performers) and size of their school (9-12th grade enrollment). Lafayette is one of the largest bands in the state, and is consistently the largest high school (by 9-12th grade enrollment) in the state, and competes in the top class, called 5A (the smallest class is called 1A). All bands perform once in a preliminary round ("prelims"), and are judged by at least six judges, three on or near the field, and three in the press box. Bands are scored on musical performance as an ensemble and as individuals, on visual performance as an ensemble and individuals, and on the general (overall) effect of the music and visuals. Within each of these categories are sub-scores. All scores are combined and weighted according to a set formula, and the band receive an overall score. Separately the Color Guard and Drum Line may be scored as well. The bands in each class are ranked and win awards based on their rank in class. The top ~10 bands overall, regardless of class, are selected to perform again in a Final found (Finals). The finalist bands are scored again on their second performance, and ranked by overall score, with the top scoring band (in Finals) named "Grand Champion". During Finals awards for Best Music, Best Visual Effect, Best General Effect, Best Color Guard, and Best Drumline are also awarded based on the appropriate sub-scores. Among the most competitive bands, fractions of a point will generally differentiate finalist bands. Scores are made available to both the bands and the public after both preliminary and finals rounds. The website https://kyband.com is a good resource for current and past scores. Judges are experienced band directors and marching band professionals drawn from all over the country and are paid for their time. For extremely large competitions (like State) some competition classes hold prelims, semi-finals (semis), and finals. There are so few bands in Kentucky in Class 5A that there is no 5A preliminary round, and all 5A bands automatically qualify for the semi-finals. At regular competitions, the prelims generally occur beginning in the morning, and running into the early afternoon, with the finals following in the evening into the night. See details of competition schedules and timelines elsewhere. Note that there is a never a garauntee that a band will advance to the finals round, though the Lafayette Band aims to not only final, but win, every competition they enter.</p>
+</div>
+</div>
+<input id="4.9" class="toggle" type="checkbox">
+<label for="4.9" class="lbl-toggle">When are band competitions? How many does the band participate in?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Band competitions happen on Saturdays and last all day, starting with an early morning rehearsal, and concluding with arrival back at Lafayette HS generally around midnight or later. The band usually attends three competitions, the Lafayette Invitational, the state marching band competition, and possibly a BOA event each year.</p>
+</div>
+</div>
+<input id="4.10" class="toggle" type="checkbox">
+<label for="4.10" class="lbl-toggle">What is the typical schedule for band students on competition days?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Students start the day with an early morning rehearsal at Lafayette, typically beginning at 7am. Students rehearse mid morning, and are then fed lunch by the food crew. Students are given time after lunch to fix hair before departing for the competition. Departure times depend on the band's assigned preliminary round performance time, which is generally know a week or so before the competition. Typically these times are around around noon. Once arrived at the competition, the band will dress and warmup before prelims performance. After prelims performance the band attends the preliminary awards ceremony, at which the best bands in each class are recognized. After this, assuming the band makes the finals, students change out of their uniforms and are fed dinner before having mandatory rest time. Mandatory rest lasts about an hour, and students are given time to rest and take a quick nap. After mandatory rest, students get dressed again before having rehearsal and warmups. The band competes in finals competition at a time determined by a draw following the prelim round, typically in the late evening. The day concludes with finals awards, where awards are given for overall best visuals, general effect, music, percussion, colorguard, and overall placements. The Grand Champion band is generally invited to remain on the field after Finals awards to offer an encore performance (the third of the day, generally occuring ~10-11pm). After awards or an encore performance, students change out of uniforms and load buses to head back to Lafayette HS.  Note that students must remain with the band for the entirety of the day, and must travel both to and from the competition on the band buses.</p>
+</div>
+</div>
+<input id="4.11" class="toggle" type="checkbox">
+<label for="4.11" class="lbl-toggle">How do students get to/from competitions/performances? Can parents/families ride with band students?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The band is transported via buses to competitions. The band usually takes six buses to competition. Bus placements are assigned by signups, where students can request a bus. Parents are not permitted to ride with band students on the bus. Several chaperones are assigned to each bus to supervise the kids. </p>
+</div>
+</div>
+<input id="4.12" class="toggle" type="checkbox">
+<label for="4.12" class="lbl-toggle">Do parents/families/friends attend band competitions? How do they get there?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Yes, parents, families, and friends attend band competitions! You are STRONGLY encouraged to do so to support the band and share the experience with other band families! Competition attendees must provide their own transportation unless they are a member of a band crew directly supporting the band on the competition day.</p>
+</div>
+</div>
+<input id="4.13" class="toggle" type="checkbox">
+<label for="4.13" class="lbl-toggle">If I attend a competition, what should I expect? What schedule should I plan? What should I bring?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Expect to be impressed, a bit overwhelmed, and to have a great time! The schedule for attendees is somewhat variable, based on (1) where the competition is, and details of how the competition site is arranged, (2) when the band is scheduled to perform in prelims, and if you intend to see the prelim performance, (3) if the band make finals, what finals time they draw, and if you intend to see this performance, and (4) if they are named Grand Champion and perform an encore, if you intend to see this performance! Typical competitions that the band participates in (e.g. Bourbon County, or George Rogers Clark) are about 45 mins - 1 hour away from Lexington. Parking is either on-site (Bourbon County) or at one of a number of remote sites (GRC). In either case it will take some time to park and walk (ride shuttles) to the stadium--typically 30 minutes, plus or minus, depending on site details. Once at the stadium you will need to buy tickets, and may buy a program. You should bring both cash and a credit card, including enough cash to buy food at the concession stand, if desired. There are often small art fairs, competition t-shirt booths, bake sales, or other vendors at competition sites. Generally parking is free, but may be on a grass field. Entry tickets are typically ~$10 per person. Once inside the stadium you will want to find seats--something that can be challenging depending on when you arrive and the size of the stands (Bourbon County: small; GRC: larger). Only the home stands are used. It is STRONGLY recommended that you bring a seat cushion or seat cushion with back, as you may be seated for an extended period of time in cramped and crowded stands. Generally you may only move around in or into/out of the stands between band performances, so be sure to arrive enough ahead of Lafayette's performance so you can move into place a least a band or two early. THAT SAID, you are STRONGLY encouraged to arrive MULTIPLE Bands ahead of Lafayette, both to ensure you get seats, and so that you can get a sense of what other bands are doing. Each band has a 15 minute window in which to perform, so you will be able to see 4 bands per hour. With up to 20 (or possibly more) bands performing in prelims at each competition, the prelim round in total can easily last more than 5 hours, as every 4-6 bands there is often a 15 minute break. Please come prepared for all weather:  wear a hat and sunscreen (this is essential!), bring ponchos (umbrellas are generally discouraged). You can package some hand towels in ziploc bags to use to dry off seats, etc, in case of rain. Towards the end of the season wear MANY LAYERS, gloves, hats, scarves, blankets, etc., and bring hand warmers--it is windy, exposed, and cold in the stands. Early in the season bring lots of water, a personal fan, and sunglasses--in the evenings as the sun sets it will often be in your eyes, and early in the season it is HOT and shadeless in the stands! Depending on when you will be watching bands, you can purchase food at the concession stand, though lines are often very long and selection limited. Often band families will go together to local restuarants, though, again, they can be busy depending on timing. There is a 2 hour or more break between prelims and finals, and you may remain in the stands, or leave and return. Though only 10-12 bands make the finals, attendees from all the finalist bands generally attend the entire finals. Because of this, the stands are often most crowded during finals. Particularly at smaller stadiums, arriving during finals may mean that you are unable to find a seat. A twelve band final will usually last 3.5 hours (3 hours of performing plus two 15 minute breaks. Finals often start around 6 pm. There is a delay after the final finalist performs, during which the host high school band usually performs "in exhibition". The finalist bands then arrange themselves on the field, and awards start, often around 10 pm. The Grand Champion (top finals band) generally remains on the field after awards, warms up, and performs their show again as an encore, starting, typically between 10:30 and 11pm.Band competitions generally last the entire day. You should bring something comfortable to sit on, money for food, sunscreen, and clothing for all types of weather.</p>
+</div>
+</div>
+<input id="4.14" class="toggle" type="checkbox">
+<label for="4.14" class="lbl-toggle">Do attendees have to pay to get into band competitions? ...BOA events? ...State?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Yes. For regular band competitions attendees should plan to buy general admission tickets at the gate for ~$10 per person. BOA events and State sell both General Admission and Assigned Seat tickets. These prices vary. For State, tickets must be bought as a group, and will be organized by the LBA. Additional details will be shared with families via Remind, Facebook, email, etc., towards the end of the season.</p>
+</div>
+</div>
+<input id="4.15" class="toggle" type="checkbox">
+<label for="4.15" class="lbl-toggle">What are "parent performances"?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Parent performances, or "Pack the Lot", is a fun way for parents and families to come watch a full run of the show at the end of rehearsals. The annual parents performance happens on the last day of band camp, where the band will perform the first movement of the show at the football stadium. The colorguard and percussion ensemble also show what they've learned during camp. Other parents performances happen throughout the season at the end of rehearsals, usually on a Friday when there isn't a football game. These performances are called "Pack the Lot", where the band performs a full run of the show on the band lot. The night before the state competition is the big Pack the Lot performance, where students perform the show for parents one last time before they compete at state. At this Pack the Lot, families are enouraged to make signs and wear show shirts to show their support as the students prepare to end the season. </p>
+</div>
+</div>
+<input id="4.16" class="toggle" type="checkbox">
+<label for="4.16" class="lbl-toggle">How are instruments, props, sets, etc., transported to competitions/performances?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Lafayette Band Association rents box trucks to transport props, sets, and large instruments to and from competitions. The field crew handles the loading and unloading, and the field crew consists of all parents volunteers. Smaller instruments, such as flutes and clarinets, are kept with students on the bus.</p>
+</div>
+</div>
+<!--Topic 5-->
+<input id="5" class="toggle" type="checkbox">
+  <label for="5" class="lbl-toggle lbl-toggle-bold">Getting Connected</label>
+    <div class="collapsible-content"> <div class="content-inner">
+      <!-- Begin topic 5 sub-topics -->
+      <div class="wrap-collabsible">
+<input id="5.1" class="toggle" type="checkbox">
+<label for="5.1" class="lbl-toggle">What is the "Charms" database?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Charms is a database that helps the Lafayette Band Association manage and collect contributions from its members.</p>
+</div>
+</div>
+<input id="5.2" class="toggle" type="checkbox">
+<label for="5.2" class="lbl-toggle">How do I communicate with other families in the band?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The LBA has a private Facebook page that is usefully for staying up-to-date on the band's latest developments.</p>
+</div>
+</div>
+<input id="5.3" class="toggle" type="checkbox">
+<label for="5.3" class="lbl-toggle">Are there groups/lists for students/parents in my student's section?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Yes, there are often group text or GroupMe chats for parents of children in the same section.</p>
+</div>
+</div>
+<input id="5.4" class="toggle" type="checkbox">
+<label for="5.4" class="lbl-toggle">What is "Remind"? How do I get connected?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Remind is the mass text chain that the directors use to contact all students and families. There are several Remind chats for different ensembles: Wind Symphony, Symphonic Band, Concert Band, Percussion, and Colorguard. There is also a mass text for the entire band. Remind codes can be found at the bottom of the E-news. </p>
+</div>
+</div>
+<input id="5.5" class="toggle" type="checkbox">
+<label for="5.5" class="lbl-toggle">What is the Big Brother/Big Sister picnic?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The BBBS picnic is a big get-together for students to play games, meet people, and enjoy goof food before the marching season officially starts. This event usually happens the week before freshman band camp starts. Underclassmen may be  assigned to a "big brother" or "big sister", which is an upperclassmen member of their section. They are in a group with other students. This is done to help students socialize and get to know each other. </p>
+</div>
+</div>
+<input id="5.6" class="toggle" type="checkbox">
+<label for="5.6" class="lbl-toggle">What is the Band Banquet? When is it? Who attends?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The band banquet happens at the end of the marching season to celebrate the student's hard work and success throughout the season. All marchers, percussion, and guard members are encourged to attend.</p>
+</div>
+</div>
+<input id="5.7" class="toggle" type="checkbox">
+<label for="5.7" class="lbl-toggle">What is the eNews?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The eNews is the mass email that is sent to parents and students every Sunday. The eNews includes important dates happening that week, fundraiser information, and announcement. Send your email to lafayetteband.enews@gmail.com to sign up for the weekly email. </p>
+</div>
+</div>
+<!--Topic 6-->
+<input id="6" class="toggle" type="checkbox">
+  <label for="6" class="lbl-toggle lbl-toggle-bold">Uniforms (Marching and Concert)</label>
+    <div class="collapsible-content"> <div class="content-inner">
+      <!-- Begin topic 6 sub-topics -->
+      <div class="wrap-collabsible">
+<input id="6.1" class="toggle" type="checkbox">
+<label for="6.1" class="lbl-toggle">What does the uniform consist of?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Marching band uniforms consist of a hat, top, "bibbers" or "bibs", socks, shoes, gloves, and dry-fit shirt. Students are issed a hat, top, bibs, and one dry-fit shirt. Students must purchase socks, shoes, gloves, and any additional dry-fit shirts.</p>
+</div>
+</div>
+<input id="6.2" class="toggle" type="checkbox">
+<label for="6.2" class="lbl-toggle">What are "bibs"? ...top? ... dry fit shirt?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Bibs are a type of overall pants that marchers wear underneath their uniform top, which is like a jacket or over-shirt. Students wear a band-issued dry fit shirt underneath their top and bibs. The dry fit shirt is what students arrive wearing before competitions and performances. Students are issued one dry fit shirt at no cost, but can purchase additional ones.</p>
+</div>
+</div>
+<input id="6.3" class="toggle" type="checkbox">
+<label for="6.3" class="lbl-toggle">Who owns the uniforms? What do uniforms cost?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Uniforms hats, tops, and bibs are owned by the band, and are purchased each year by the LBA. The band spends more the $200 per student per year on uniforms.</p>
+</div>
+</div>
+<input id="6.4" class="toggle" type="checkbox">
+<label for="6.4" class="lbl-toggle">Is there a new uniform every year?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Yes! Marchers and colorguard are given new uniforms every year that are specifically designed to match the show theme. Drum majors wear the same uniform every year: a black top with black bibs.</p>
+</div>
+</div>
+<input id="6.5" class="toggle" type="checkbox">
+<label for="6.5" class="lbl-toggle">Who washes the uniforms? Are uniforms kept at home?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The bulk of your child's uniform will stay at the school under the Uniform Crew's care. The Uniform Crew washes each and every uniform after every performance. They also organize, store, maintain, and distribute the uniforms to students. If your student has any issue or concern with their uniform, they should immediately contact the Uniform Crew. Your student will remain responsible for their dry fit shirt(s), shoes, gloves, and other smaller items they will need during the marching season. IT IS STUDENT'S RESPONSIBILITY TO WASH THEIR DRY FIT SHIRT AFTER EVERY USE. Every other member of the band appreciates student's diligence in keeping their dry fit shirt(s) fresh.</p>
+</div>
+</div>
+<input id="6.6" class="toggle" type="checkbox">
+<label for="6.6" class="lbl-toggle">What socks and shoes are worn with uniforms?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Students are required to wear specific shoes with their marching uniform. These shoes are called Dinkles, and are specifically manufactured for marching bands. Students must purchase their own pair of Dinkles. The Uniform Crew sends order forms home with every student during summer band camp. From time-to-time, gently used shoes are available from previous marchers. Contact the Uniform Crew with questions. In addition students are required to wear tall black socks. No logos, designs, or other markings may be visible on the socks. </p>
+</div>
+</div>
+<input id="6.7" class="toggle" type="checkbox">
+<label for="6.7" class="lbl-toggle">I have a uniform problem/concern--who do I contact?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Contact the uniform crew for any questions or concerns with uniforms. </p>
+</div>
+</div>
+<input id="6.8" class="toggle" type="checkbox">
+<label for="6.8" class="lbl-toggle">What do students wear for concerts (as opposed to marching performances?)</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The band provides "Concert Uniforms". In the past, these have been traditional marching band uniforms (jackets and pants), but we are in the process of replacing these with a more comfortable and functional alternative. The band directors will let students know what to wear well ahead of every concert.</p>
+</div>
+</div>
+<input id="6.9" class="toggle" type="checkbox">
+<label for="6.9" class="lbl-toggle">What do students wear under uniform bibs/pants?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Students wear the dri-fit band shirt they received at band camp and black shorts. Depending on the weather, students are permitted to wear long sleeve dri-fits and pants under uniforms as it gets colder in the season. </p>
+</div>
+</div>
+<!--Topic 7-->
+<input id="7" class="toggle" type="checkbox">
+  <label for="7" class="lbl-toggle lbl-toggle-bold">Finances/Fundraising/LBA</label>
+    <div class="collapsible-content"> <div class="content-inner">
+      <!-- Begin topic 7 sub-topics -->
+      <div class="wrap-collabsible">
+<input id="7.1" class="toggle" type="checkbox">
+<label for="7.1" class="lbl-toggle">What is the Lafayette Band Association (LBA)? What does the LBA do/provide?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The Lafayette Band Association (LBA) is the non-profit 501(c)(3) organization dedicated to supporting the Lafayette Marching Band. While anyone can join, parents and/or guardians of students in the band are automatically members. Each year the LBA provides THOUSANDS of volunteer hours and more than $400,000 in direct financial support to make nearly everything the band does possible. The LBA pays band staff, purchases uniforms, show music, instruments, props and sets. The LBA pays for travel to and from competitions, provides food for students during camps and trips, provides housing for students on overnight trips. LBA members maintain and clean uniforms, serve as chaperones, prepare and serve food, build, maintain, transport, and place on the field props and sets, transport instruments, organize and operate the band store, organize and arrange photographs of band students, and "get done" whatever the band staff needs.</p>
+</div>
+</div>
+<input id="7.2" class="toggle" type="checkbox">
+<label for="7.2" class="lbl-toggle">Without the LBA, what would the district provide/make possible?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Only band class with the three primary directors. No additional staff, or funds for marching activities.</p>
+</div>
+</div>
+<input id="7.3" class="toggle" type="checkbox">
+<label for="7.3" class="lbl-toggle">How much money, per student, does it cost to do all the things the band does?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>To cover all band activities, including marching and concert season, the LBA provides >$2200 per student. Broken down roughly this includes >$600 in travel costs, >$400 for paid staff, >$300 for show related expenses, >$220 for uniforms, >$100 for food, plus a host of other expenses.  This can vary slightly from year to year based on travel costs etc.</p>
+</div>
+</div>
+<!--Topic 8-->
+<input id="8" class="toggle" type="checkbox">
+  <label for="8" class="lbl-toggle lbl-toggle-bold">How much does the band spend on uniforms, a whole band day trip, a whole band overnight trip, food to feed the whole band, show music, props/sets</label>
+    <div class="collapsible-content"> <div class="content-inner">
+      <!-- Begin topic 8 sub-topics -->
+      <div class="wrap-collabsible">
+<input id="8.1" class="toggle" type="checkbox">
+<label for="8.1" class="lbl-toggle">What are the major ways the LBA raises money to support the band? How much of what the LBA raises goes directly to supporting band activities?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The LBA raises money in two primary ways: the Family Contribution, and various fundraising activities. We work to raise as much money as possible via fundraising activities to reduce the expected Family Contribution. Currently, we are able to fundraise just under half the total required funds. The remaining funds (some $220,000) must be directly donated by band families via the Family Contribution. In terms of fundraisers, we aim to raise ~$60,000 operating Bingo each Thursday, ~$35,000 via our SnapRaise fundraiser, ~$20,000 in sponsorships, ~$20,000 selling discount cards/books, ~$13,000 from hosting the Lafayette Invitational, ~$12,000 from hosting a Winter Guard event, and an additional ~$50,000 from the Band Store, Restaurant nights, Kroger Rewards, a mattress sale, raffles, Pay-the-Day fundraiser, etc.</p>
+</div>
+</div>
+<input id="8.2" class="toggle" type="checkbox">
+<label for="8.2" class="lbl-toggle">What are SnapRaise, RaiseRight, Discount Cards, Bingo, and Spirit Nights?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>SnapRaise is an online fund drive during which we solicit donations from families and friends. Students provide 20+ email addresses of family members and friends who might be willing to support the band. SnapRaise generates an email and web campaign soliciting direct donations. We aim to raise ~$35,000 during this ~2 week fund drive. The Lafayette Band raises ~$60,000 per year operating Bingo games once a week. Profit from Bingo nights represents the band's biggest fundraiser, and the fundraiser that most focuses on raising money from the community, as opposed to band families. The LBA runs Bingo every Thursday night, year round, excluding holidays. Band families are expected to volunteer at Bingo ~4 times per year. More information can be found at www.lafayetteband.org/bingo/. "Spirit Nights" are when a business decides to donate part of their proceeds from sales to the band (i.e. band families eat at Moe's a particular night and earn cash for the band). These are a great way to support both local businesses and the band. Discount cards/books are cards or books of coupons and discounts honored by local businesses. We sell them each fall throughout the community, aiming to raise ~$20,000 each year.</p>
+</div>
+</div>
+<input id="8.3" class="toggle" type="checkbox">
+<label for="8.3" class="lbl-toggle">Is participating in fundraising required?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The opportunities and experiences our students have as part of the band are only possible if we generate funds via fundraising. All our band families are busy, stressed, and bearing many burdens. We feel strongly that the benefit of band is worth our effort, though, and every band family is encouraged and expected to participate in all band fundraisers.</p>
+</div>
+</div>
+<input id="8.4" class="toggle" type="checkbox">
+<label for="8.4" class="lbl-toggle">What is the "family contribution"? How much is it?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The Family Contribution represents the amount of money per student that individual families are expected to provide to support the entire band. For the 2023-2024 academic year, the Family Contribution is $1,300 per student. This may be paid in a single payment, or over the course of the year. For families with more than one student in the band, additional students increase the expected family contribution by $650 per student.</p>
+</div>
+</div>
+<input id="8.5" class="toggle" type="checkbox">
+<label for="8.5" class="lbl-toggle">What is the "family contribution" if I have more than one kid in the band?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>See above.</p>
+</div>
+</div>
+<input id="8.6" class="toggle" type="checkbox">
+<label for="8.6" class="lbl-toggle">What happens if I don't pay the family contribution?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Failure to pay the family contribution increases our reliance on (and the effort required for) other fundraising. We encourage every family to do what they can to help all our students have the most impactful and positive band experience possible. We encourage, and expect, all families to actively support LBA fundraising activities!</p>
+</div>
+</div>
+<input id="8.7" class="toggle" type="checkbox">
+<label for="8.7" class="lbl-toggle">Can I "earn" my family contribution by working for the band, instead of paying it? Are there in-kind donations I could make?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>While you cannot earn credit toward your Family Contribution, we recognize that every family is in a different situation. The band has myriad volunteer needs above and beyond the family contribution, and all band families are expected to share the burden, enabling all our students to have a positive and life-changing band experience! From time-to-time the band does have need of in-kind contributions. If you might be able to support the band in this way, please contact the volunteer crew chief best aligned with your resources!</p>
+</div>
+</div>
+<!--Topic 9-->
+<input id="9" class="toggle" type="checkbox">
+  <label for="9" class="lbl-toggle lbl-toggle-bold">Food</label>
+    <div class="collapsible-content"> <div class="content-inner">
+      <!-- Begin topic 9 sub-topics -->
+      <div class="wrap-collabsible">
+<input id="9.1" class="toggle" type="checkbox">
+<label for="9.1" class="lbl-toggle">Is food provided for students at football games, band competitions, band camp, mini-camps, BOA, or State?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The LBA supplies students with meals during band camps and competition days. Food is not typically provided for mini-camps unless the camp lasts from morning until late afternoon. Food is not provided before football games, but students are given water bottles while in the stadium and warmups. Students are encouraged to eat dinner before dressing and rehearsal for a football game. Our Food Crew prepares and serves food for the band, email XXXX if you'd like to help out, or to make a donation!</p>
+</div>
+</div>
+<input id="9.2" class="toggle" type="checkbox">
+<label for="9.2" class="lbl-toggle">How are food allergies handled?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Chaperone crews have medical information and they work with the food crew.  Typically, nut products are never provided or brought on trips or at camps. PLEASE GET YOUR MEDICAL FORMS TURNED INTO THE CHAPERONE CREW.</p>
+</div>
+</div>
+<input id="9.3" class="toggle" type="checkbox">
+<label for="9.3" class="lbl-toggle">Can/Should I bring snacks/money for food to competitions/rehearsals?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>WATER IS MOST IMPORTANT FOR REHEARSALS! Have your child bring their own jug.  Chaperones will have coolers full of ice and water available.  Chaperones also have emergency snacks if a child has low blood sugar or is feeling sick.  Food and water are provided during competitions.</p>
+</div>
+</div>
+<!--Topic 10-->
+<input id="10" class="toggle" type="checkbox">
+  <label for="10" class="lbl-toggle lbl-toggle-bold">Color Guard</label>
+    <div class="collapsible-content"> <div class="content-inner">
+      <!-- Begin topic 10 sub-topics -->
+      <div class="wrap-collabsible">
+<input id="10.1" class="toggle" type="checkbox">
+<label for="10.1" class="lbl-toggle">What is the Color Guard? Is it part of the band?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The Color Guard are the visual performers for the band. They collectively work in conjunction with the band to tell the story of the fall show using different elements such as dance, tossing of sabres and rifles, and tossing or twirling of colorful flags.</p>
+</div>
+</div>
+<input id="10.2" class="toggle" type="checkbox">
+<label for="10.2" class="lbl-toggle">Who can join the color guard? I play an instrument, can I join the color guard?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>You should discuss with Mr. Bishop any change from marching band to Color Guard. </p>
+</div>
+</div>
+<input id="10.3" class="toggle" type="checkbox">
+<label for="10.3" class="lbl-toggle">Do I have to play an instrument to join the color guard?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>No. Some members do play instruments during concert season, however you do not have to play an instrument to participate.</p>
+</div>
+</div>
+<input id="10.4" class="toggle" type="checkbox">
+<label for="10.4" class="lbl-toggle">Do you have to audition to join the color guard? Who select color guard members?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Yes and no. While there are auditions for certain categories such as sabre and rifle, all members will be placed regardless of skill level.</p>
+</div>
+</div>
+<input id="10.5" class="toggle" type="checkbox">
+<label for="10.5" class="lbl-toggle">Does the color guard practice at the same time as the band?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Sometimes....There are full band practices to bring the whole show together but often they start practice during the week after band is finished. It will be noted in the e-News.</p>
+</div>
+</div>
+<input id="10.6" class="toggle" type="checkbox">
+<label for="10.6" class="lbl-toggle">What are sabers? ... rifles? ... flags? ... silks?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The difference between each "weapon" is as follows. The sabre is a composite sabre with a hilt on one end. Think of a long pirate sword. the sabres are NOT sharp. The rifles are wood or composite material that are twirled or tossed. The rifles do NOT shoot bullets. The flags are silk prints attatched to a flag pole of various or uniformed sizes. They can also be tossed or twirled.</p>
+</div>
+</div>
+<!--Topic 11-->
+<input id="11" class="toggle" type="checkbox">
+  <label for="11" class="lbl-toggle lbl-toggle-bold">Showing your "Pride of the Bluegrass" Spirit</label>
+    <div class="collapsible-content"> <div class="content-inner">
+      <!-- Begin topic 11 sub-topics -->
+      <div class="wrap-collabsible">
+<input id="11.1" class="toggle" type="checkbox">
+<label for="11.1" class="lbl-toggle">What are letters, bars, and patches?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Letters and bars are earned by completing a band season...Just like you would earn if you we in track or another sport.  Show Patches can be purchased at the band store.  BOA (Bands of America competions sell all kinds of memorabilia.  State patches are sent to Mr. Bishop.</p>
+</div>
+</div>
+<input id="11.2" class="toggle" type="checkbox">
+<label for="11.2" class="lbl-toggle">What is the "Band Store"? When is it open? What do they sell?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>The Band Store sells Lafayette band gear.  Usually magnets, lanyards, buttons, Patches etc. It is typically open before football games and sometimes after practices.  It is often posted in the e-News.</p>
+</div>
+</div>
+<input id="11.3" class="toggle" type="checkbox">
+<label for="11.3" class="lbl-toggle">Are band jackets still a thing?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Yes Letterman jackets are still a thing.  They can be purchased at the Locker room. You can decide the style but most band members get a blue base jacket with white sleeves.  They have photo examples. The Locker Room will sew the patches on for you.</p>
+</div>
+</div>
+<input id="11.4" class="toggle" type="checkbox">
+<label for="11.4" class="lbl-toggle">What are red bags?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Red bags are duffel bags given to students with the Lafayette Band logo on it and the option to have the students name embroidered on it. Red bags are used on competition days and football games to carry dinkles, socks, dri fit shirt, shorts, hair accessories, deodorant, and any other items they may need. Red bag orders are sent out during band camp along with dri fit shirt and dinkle orders.</p>
+</div>
+</div>
+<input id="11.5" class="toggle" type="checkbox">
+<label for="11.5" class="lbl-toggle">Where can I get photo buttons, magnets, lanyards?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Photo buttons are generally available to order after individual band pictures are taken. You can wear these in support of your student. Magnets and pins for the shows will be available through the Band Store, as well as lanyards.</p>
+</div>
+</div>
+<input id="11.6" class="toggle" type="checkbox">
+<label for="11.6" class="lbl-toggle">What are the French flags for? Where do I get some?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>They show school/band spirit.  They are often waved from the stands during competitions and football games.</p>
+</div>
+</div>
+<input id="11.7" class="toggle" type="checkbox">
+<label for="11.7" class="lbl-toggle">What is the chant we do for the band as they come onto the field?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Spell out Lafayette, and say Lafayette at the end. Sounds like: L-A-F-A-Y-E-T-T-E Lafayette! </p>
+</div>
+</div>
+<!--Topic 12-->
+<input id="12" class="toggle" type="checkbox">
+  <label for="12" class="lbl-toggle lbl-toggle-bold">Other?</label>
+    <div class="collapsible-content"> <div class="content-inner">
+      <!-- Begin topic 12 sub-topics -->
+      <div class="wrap-collabsible">
+<input id="12.1" class="toggle" type="checkbox">
+<label for="12.1" class="lbl-toggle">What is band council?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>Band council is a student-run organization that helps plan and schedule events during the school year. The band council consists of a president, vice president, class representatives, and section leaders. President, VP, secretary, and class reps are elected by students. Section leaders are automatically placed on the council. Band council holds meetings once every month to discuss rehearsals, events, and fundraisers. </p>
+</div>
+</div>
+<input id="12.2" class="toggle" type="checkbox">
+<label for="12.2" class="lbl-toggle">How do I wear my hair during performances?</label>
+<div class="collapsible-content">
+<div class="content-inner">
+<p>For marching performances all hair must be worn up, and may not hang down from beneath the marching hat. This applies to EVERY STUDENT regardless of hair style. Hair may not hang over the ears. Once "up", hair MUST fit comfortably with the hat, and may not disrupt or interfere with correct placement of the hat on the student's head. If you have long hair, or hair that covers any part of your ears, you should speak with your section leader for recommendations on how to wear your hair during marching performances. It is strongly recommended that you practice arranging your hair BEFORE performance days so that you have all necessary supplies and know your plan will work. Please note that you must have your hair fully ready BEFORE any call/report times.</p>
+</div>
+</div>
+        </div> <!--End all topics-->
