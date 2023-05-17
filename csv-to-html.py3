@@ -8,10 +8,7 @@ with open("input.csv", "r") as csv_f:
     data=list(reader)
 
 os.system('cp header.html output.html')
-html_footer='        </div> <!--End all topics-->\n'
-'    </div> <!--End container holding collapsible topics-->\n'
-'</body>\n'
-'</html>'
+html_footer='        </div> <!--End all topics-->\n    </div> <!--End container holding collapsible topics-->\n</body>\n</html>'
 
 with open("output.html","a") as html_f:
     counta=0
@@ -19,7 +16,7 @@ with open("output.html","a") as html_f:
     for row in data:
         if row[1]=="" and row[0]!="":
             if counta!=0:
-                html_f.write('</div></div>\n')
+                html_f.write('</div></div></div>\n')
             html_f.write('<!--Topic '+str(counta+1)+'-->\n'
             '<input id="'+str(counta+1)+'" class="toggle" type="checkbox">\n'
             '  <label for="'+str(counta+1)+'" class="lbl-toggle lbl-toggle-bold">'+row[0]+'</label>\n'
