@@ -18,6 +18,8 @@ with open("output.html","a") as html_f:
     countb=1
     for row in data:
         if row[1]=="" and row[0]!="":
+            if counta!=0:
+                html_f.write('</div></div>\n')
             html_f.write('<!--Topic '+str(counta+1)+'-->\n'
             '<input id="'+str(counta+1)+'" class="toggle" type="checkbox">\n'
             '  <label for="'+str(counta+1)+'" class="lbl-toggle lbl-toggle-bold">'+row[0]+'</label>\n'
